@@ -1,0 +1,309 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: dmsan;
+    src: url(fontes/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: anton;
+    src: url(fontes/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+section{
+    background-color: rgb(0, 0, 0);
+}
+header::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100.85%;
+    background-image: url(imagemserv2.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: 0;
+}
+.home1{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 919px;
+}
+.barra-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 96px;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 280px;
+}
+.menu-itens{
+    font-family: dmsan;
+    text-decoration: none;
+    color: white;
+    padding: 0px 18px;
+}
+.menu li{
+    font-size: 17px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.barra-menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+/*----------------------------------------------------------------------------------*/
+.titulo-page2{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: anton;
+    font-size: 90px;
+    color: white;
+}
+.servicos1{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    padding-bottom: 90px;
+}
+.cortes{
+    width: 450px;
+    height: 360px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.rosto-cuidados{
+    width: 450px;
+    height: 420px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.subtitulo1{
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid white;
+    font-family: anton;
+    font-size: 55px;
+    color: white;
+    margin-bottom: 20px;
+}
+.subtitulo2{
+    display: flex;
+    justify-content: center;
+    border-bottom: 4px solid white;
+    font-family: anton;
+    font-size: 55px;
+    color: white;
+    margin-bottom: 20px;
+}
+.cortes div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: opensans;
+    font-size: 23px;
+}
+.rosto-cuidados div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    border-bottom: 1px solid white;
+    color: white;
+    font-family: opensans;
+    font-size: 23px;
+}
+/*----------------------------------------------------------------------------------*/
+#s2::before{
+    content: "";
+    position: absolute;
+    top: 920px;
+    left: 0px;
+    width: 100%;
+    height: 100.85%;
+    background-image: url(imgserv3.png);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.3;
+    z-index: 0;
+}
+.home2{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 915px;
+}
+.titulo-page3{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-family: anton;
+    font-size: 90px;
+    color: white;
+}
+.servicos2{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    padding-bottom: 120px;
+}
+.combo1, .combo2{
+    width: 600px;
+}
+.combo1 div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    border-bottom: 1px solid white;
+    font-family: opensans;
+    font-size: 23px;
+    color: white;
+}
+.combo2 div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    border-bottom: 1px solid white;
+    font-family: opensans;
+    font-size: 23px;
+    color: white;
+}
+/*----------------------------------------------------------------------------------*/
+#s3::before{
+    content: "";
+    position: absolute;
+    top: 1840px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(imagemserv3.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 0;
+}
+.home3{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 917px;
+}
+.titulo-page4{
+    padding-top: 100px;
+    font-family: anton;
+    font-size: 90px;
+}
+.titulo-page4 div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    font-family: anton;
+    font-size: 90px;
+}
+#color1{
+    color: #db2c2c;
+    height: 110px;
+}
+#color2{
+    color: yellow;
+    height: 110px;
+}
+.servicos3{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    padding: 100px;
+    padding-bottom: 170px;
+    padding-left: 350px;
+}
+.servicos3 div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    border-bottom: 1px solid white;
+    font-family: opensans;
+    font-size: 23px;
+    color: white;
+}
+/*----------------------------------------------------------------------------------*/
+.rodape{
+    background-color: black;
+    padding-top: 25px;
+}
+.rodape-logo{
+    display: flex;
+    justify-content: center;
+}
+.rodape-logo img{
+    width: 80px;
+}
+.rodape-info{
+    display: flex;
+    justify-content: space-around;
+    padding-right: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.endereco-rodape{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.atendimento-rodape{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.contato-rodape{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+.endereco-rodape img{
+	width: 30px
+}
+.atendimento-rodape img{
+	width: 30px
+}
+.contato-rodape img{
+	width: 30px
+}
+#titulor1, #titulor2, #titulor3{
+	font-family: anton;
+	color: white;
+	font-size: 20px; 
+}
+#textor1, #textor2, #textor3, #textor4{
+    font-family: opensans;
+	color: white;
+    font-size: 10px;
+}

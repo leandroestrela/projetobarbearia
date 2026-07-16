@@ -1,0 +1,94 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: dmsan;
+    src: url(fontes/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: anton;
+    src: url(fontes/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+header{
+    background-color: black;
+}
+.barra-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 96px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 280px;
+}
+.menu-itens{
+    font-family: dmsan;
+    text-decoration: none;
+    color: white;
+    padding: 0px 18px;
+}
+.menu li{
+    font-size: 17px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.barra-menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+body{
+    font-family: dmsan;
+    background-color: black;
+    color: white;
+}
+body::before{
+    content: "";
+    position: absolute;
+    width: 900px;
+    height: 900px;
+    background-image: url(logo.png);
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.3;
+    z-index: 0;
+}
+.forms{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(179, 40, 40, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+    font-size: 15px;
+}
+fieldset{
+    border-radius: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+legend{
+    text-align: center;
+    font-size: 22px;
+}
+div{
+    padding-left: 15px;
+}

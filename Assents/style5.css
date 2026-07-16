@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: dmsan;
+    src: url(fontes/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: anton;
+    src: url(fontes/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    background: linear-gradient(to right, rgb(107, 38, 38), rgb(61, 22, 22));
+    color: white;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+    padding-top: 10px;
+    font-family: dmsan;
+}
+.my-custom-table th,
+.my-custom-table td {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    color: white;
+}
+
+.my-custom-table thead th {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.my-custom-table tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.my-custom-table {
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}

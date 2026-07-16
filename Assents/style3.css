@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: dmsan;
+    src: url(fontes/DMSans-VariableFont_opsz\,wght.ttf);
+}
+@font-face {
+    font-family: anton;
+    src: url(fontes/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: opensans;
+    src: url(fontes/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+header{
+    background-color: black;
+}
+/*MENU*/
+.barra-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 96px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 280px;
+}
+.menu-itens{
+    font-family: dmsan;
+    text-decoration: none;
+    color: white;
+    padding: 0px 18px;
+}
+.menu li{
+    font-size: 17px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.barra-menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+/*ANIMAÇÃO*/
+section{
+    background-color: black;
+    height: 800px;
+}
+.animacao img{
+    width: 600px;
+}
+.animacao{
+    width: 600px;
+    position: relative;
+    top: 250px;
+    animation-name: deslizar;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes deslizar{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 700px;
+    }
+}
+/*RODAPÉ*/
+.rodape1{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.rodape2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.rodape2 p{
+    text-align: center;
+}
+#r1 img{
+    width: 80px;
+    margin: 30px;
+    padding-left:880px
+}
+#titulor1{
+    font-family: anton;
+    font-size: 20px;
+}
+#r2 img{
+    width: 30px;
+    height: 30px;
+    padding-left: 135px;
+}
+#r2{
+    width: 300px;
+}
+#titulor2{
+    font-family: anton;
+    font-size: 20px;
+}
+#r3 img{
+    width: 30px;
+    padding-left: 135px;
+}
+#r3{
+    width: 300px;
+}
+#titulor3{
+    font-family: anton;
+    font-size: 20px;
+}
+#r4 img{
+    width: 30px;
+    padding-left: 135px;
+}
+#r4{
+    width: 300px;
+}
+#textor1, #textor2, #textor3, #textor4{
+    font-family: opensans;
+    font-size: 10px;
+}
